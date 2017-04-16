@@ -1571,7 +1571,7 @@ Rule.specialSite = [
        contentSelector: '.read .txt',
     },
     {siteName: "欢乐书客",
-         url: "^http://www\\.hbooker\\.com/chapter/book_chapter_detail/\\d+",
+         url: "^https://www\\.hbooker\\.com/chapter/book_chapter_detail/\\d+",
          bookTitleSelector: ".breakcrumb > a:last",
          titleSelector: ".book-read-box .read-hd h3",
          useiframe: true,
